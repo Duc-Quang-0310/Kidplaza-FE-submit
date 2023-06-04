@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.ant-spin-dot-item {
+  background-color: #FFFFFF;
+}
+
+.ant-upload.ant-upload-select {
+  width: 100% !important;
+}
+
+.pincode-input-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+

@@ -1,0 +1,50 @@
+.AuthSection {
+    display: flex;
+    height: 100vh;
+}
+
+.AuthSection > .FormContainer, .AuthSection > .ImageContainer {
+    flex: 1;
+}
+
+.AuthSection > .FormContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.AuthSection > .FormContainer > .StickyHeader {
+    position: absolute;
+    top:0;
+    display: none;
+    width: 100%;
+    height: 4rem;
+}
+
+.AuthSection > .FormContainer > .StickyHeader img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.FormDetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:768px) {
+    .ImageContainer {
+        display: none;
+    }
+
+    .AuthSection > .FormContainer > .StickyHeader {
+        display: block;
+    }
+}

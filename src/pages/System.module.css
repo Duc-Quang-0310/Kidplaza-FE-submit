@@ -1,0 +1,144 @@
+.AllTypeForm {
+    width: 30.25rem;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.btnGroup {
+    display: flex;
+    gap: 10px;
+}
+
+.btnGroup button {
+    width: 50%;
+    height: 42px;
+}
+
+.AllTypeForm h3, 
+.AllTypeForm h1, 
+.AllTypeForm h2,
+.AllTypeForm h4,
+.AllTypeForm h5 {
+    text-align: center;
+}
+
+.AllTypeForm h2 {
+    margin-top: 10rem;
+    font-weight: 700;
+}
+
+.AllTypeForm h5 {
+    margin-bottom: 2.25rem;
+    color: rgb(122, 122, 126);
+}
+
+.seperateLine {
+    height: 1px;
+    background-color: #dcdcdc;
+    position: relative;
+    margin-block: 3rem;
+}
+
+.seperateLine::before {
+    content: "Or with email";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+    background-color: #ffffff;
+    padding-inline: 10px;
+    color: rgb(122, 122, 126);
+}
+
+.AllTypeForm footer {
+    display: flex;
+    margin-top: auto;
+}
+
+.AllTypeForm ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+
+
+
+.AllTypeForm button.actionButton {
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+
+.AllTypeForm button.actionButton + p {
+    color: rgb(122, 122, 126);
+    font-size: 15px;
+}
+
+.AllTypeForm .RedirectText {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+}
+
+.AllTypeForm p {
+    text-align: center;
+}
+
+strong {
+    font-size: 14px;
+    margin-top: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(69, 143, 255, 1);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.AllTypeForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.AllTypeForm form input {
+    height: 42px;
+}
+
+.ErrMessage {
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(253, 87, 73, 1);
+    margin-top: 3px;
+}
+
+.phoneContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mt {
+    margin-top: 1.5rem;
+  }
+
+@media screen and (max-width:1250px) {
+    .AllTypeForm {
+        width: 80%;
+    }
+}
